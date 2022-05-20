@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rochester&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.login{
+height: 100vh;
+width : 100vw;
+background: linear-gradient(116.67deg, #8C72B7 0.58%, rgba(192, 46, 195, 0) 101.02%);
+position:relative;
+overflow: hidden;
+}
+.head{
+    position: absolute;
+width: 703px;
+height: 140px;
+left: 400px;
+top: 41px;
+font-family: 'jsMath-cmr10';
+font-style: normal;
+font-weight: 500;
+font-size: 128px;
+line-height: 140px;
+
+color: #FFFFFF;
+    
+}
+
+
+.login-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 50px;
+    left: 800px;
+    top:300px;
+    background: #ffffff;
+    box-shadow: 20px 20px 50px grey;
+}
+.login-container > input {
+    height: 30px;
+    width: 80%;
+    border: 1px solid gray;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 25px;
+    padding: 5px;
+  }
+ .welcome{
+    
+    height: 30px;
+    width: 80%;
+    
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    margin-bottom: 20px;
+    
+    font-size: 24px;
+    
+ 
+    
+    color: #8C72B7;
+ } 
+  
+  .sign-in-register-button {
+    height: 40px;
+    width: 85%;
+    background: blue;
+    font-size: 20px;
+    border: 1px;
+    margin-bottom: 10px;
+    font-family:'Hind Siliguri';
+    font-weight: normal;
+    color: white;
+    cursor: pointer;
+  }
+  .Register {
+    display: inline;
+    margin-right: 45px;
+    cursor: pointer;
+   
+  }
+  .forget{
+    display: inline;
+    margin-left: 10px;
+    cursor:pointer;
+  }
+
+  .svg{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 50px;
+    left: 150px;
+    top:200px;
+    
+
+  }
+  .login2{
+    background: none;
+    color:#0B43A4;
+    cursor:pointer;
+    border:none;
+    margin-right: 15px;
+  }
+  .haveaccount{
+    display: inline;
+    margin-right: 35px;
+
+  }

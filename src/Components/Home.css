@@ -1,0 +1,90 @@
+.homepage {
+    height: 100vh;
+   width: 100vw;
+    background: linear-gradient(116.67deg, #8C72B7 0.58%, rgba(192, 46, 195, 0) 101.02%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .add-edit-input {
+    position: absolute;
+    top: 60px;
+    outline: none;
+    border: none;
+    width: 500px;
+    height: 40px;
+    font-size: 25px;
+    padding: 5px 20px;
+  }
+  .add{
+    position: absolute;
+    top: 60px;
+    right:489px;
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    padding: 5px 20px;
+    background-color: blue;
+    color:white;
+  }
+  
+  .update{
+
+    position: absolute;
+    top: 60px;
+    right:489px;
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    padding: 5px 20px;
+    background-color: blue;
+    color:white;
+  }
+  
+  
+  .todo {
+ 
+   justify-content: center;
+   
+   
+  }
+  
+  .todo > h1 {
+  
+    
+    width: 500px;
+    background-color: white;
+    padding: 5px 10px;
+    
+    
+    
+  }
+  
+  .edit-button,
+  .delete-button {
+  
+
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .logout{
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 60px;
+    right: 210px;
+    padding: 5px 20px;
+    background-color: blue;
+    font-size: 24px;
+   
+    border: none;
+    color: white;}
