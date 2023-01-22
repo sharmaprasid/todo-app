@@ -1,3 +1,5 @@
+You can see figma design of Todo app in
+https://www.figma.com/community/file/1108341858815135291
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
